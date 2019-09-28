@@ -1,0 +1,205 @@
+/* Responsive breakpoints
+==========================*/
+
+/* For Min Width
+
+Small devices (landscape phones, 576px and up)
+
+=================================*/
+
+
+
+
+@media (min-width: 576px) { ... }
+
+
+@media (min-width: 768px) { ... }
+
+
+@media (min-width: 992px) { ... }
+
+
+@media (min-width: 1200px) { ... }
+
+/* For Max Width
+============================*/
+
+
+@media (max-width: 575.98px) { ... }
+
+
+@media (max-width: 767.98px) {
+
+
+/* Product Margin
+------------*/
+.cn-prod {
+    margin: 45px 0px;
+}
+
+.cn-ser h1 {
+font-size: 2rem;
+}
+
+
+.cn-ser h2 {
+    font-size: 1.6rem;
+    color: #b600e3;
+}
+
+.bnr-icons {
+    color: #091444;
+    font-size: 17px;
+    background: rgba(245, 202, 255, 0.8);
+    padding: 2px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #b600e3;
+}
+
+.carousel-indicators li {
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+
+}
+}
+
+@media (max-width: 991.98px) {
+/* Navbar CSS
+--------------*/
+.cn-nav .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 8px 20px;
+}	
+	
+.navbar-light .navbar-nav .nav-link {
+    color: #b600e3;
+    font-weight: 500;
+    font-size: 17px;
+    border-bottom: 1px solid #f8deff;
+    border-top: 1px solid #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    border-bottom: 1px solid #0c041d;
+    border-top: 1px solid #0f1f61;
+}
+
+
+
+	
+}
+
+@media (max-width: 1199.98px) { ... }
+
+
+/* For Max & Min Width
+==========================*/
+
+@media (max-width: 575.98px) { ... }
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+/**/
+.cn-ftr .btn {
+font-size: 0.65rem;}
+
+
+.cn-ftr .form-control {
+font-size: 0.7rem;}
+
+h3, .h3 {
+    font-size: 1.1rem;
+}
+
+.ftr-des {
+    padding: 15px 0;
+    font-size: 0.7rem;
+}
+	
+.cn-ser h1 {
+    font-size: 2rem;
+font-weight: 600 !important;}
+
+
+.big-icon {
+    padding: 57px 35px;
+    width: 150px;
+height: 150px;}
+
+.cn-testl p {
+    padding: 0 15px;
+    font-size: 9px;
+}
+
+.cn-testl-title {
+    margin: 7px 0;
+    padding-bottom: 7px;
+    font-size: 1.3rem;
+}
+
+.cn-testl-3 {
+    padding: 15px 0;
+}
+
+.cn-testl .custom-margin {
+    padding: 29px 0;
+}
+
+.cn-prod .card-title {
+    font-size: 1.2rem;
+}
+
+.cn-prod .card-text {
+    font-size: 12px;
+}
+
+
+.cn-prod .card-body {
+    padding: 15px 0;
+}
+
+
+.bnr-obj {
+    width: 450px;
+margin-bottom: 4.3rem;}
+
+img.cn-img-responsive {
+    height: 100px;
+}
+/**/
+
+	
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+.cn-ftr .btn {
+font-size: 0.9rem;}
+
+
+.bnr-obj {
+    width: 640px;
+margin-bottom: 6rem;}
+
+img.cn-img-responsive {
+    height: 150px;
+}
+
+.cn-testl p {
+    padding: 0 13px;
+    font-size: 13px;
+}
+
+.cn-testl-title {
+    margin: 0px 0;
+    padding-bottom: 0px;
+    font-size: 1.5rem;
+}
+}
+
+@media (min-width: 1200px) { ... }
